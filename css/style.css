@@ -15,13 +15,11 @@ nav {
 .logo {
   /*bloc logo*/
   margin: 20px;
-  background-image: url(../images/bloc-logo.png);
   float: left;
 }
 
 .medium-pic {
   /*center pic*/
-  background-image: url(../images/instagram-pic.jpg);
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,18 +48,18 @@ padding-top: 2%;
     float: center;
   }
 
-a {
-  /*contact alumni courses*/
-  float: right;
-  padding: 30px;
-  text-decoration: none;
-  link { color:#0070BB; } /* unvisited */
-  visited { color:#0070BA; } /* visited */
-}
+  a {
+    /*contact alumni courses*/
+    float: right;
+    padding: 30px;
+    text-decoration: none;
+    color: #0099CC;
+  }
 
-a:hover {
-  background-color: black;
-}
+  a:hover {color: #3399CC;}
+  a:visited {color: #0066CC;}
+  a:active {color: #0099FF;}
+
 
 p {
   /*text body*/
@@ -90,4 +88,8 @@ background: white;
   width: 100%;
  padding: 3%;
  background: white;
+}
+
+.story-text p {
+  margin-bottom: 2%; /* or whatever value you like */
 }
