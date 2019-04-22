@@ -1,13 +1,14 @@
 
 body {
-  background-color: #FFFAF7;
-  color: #262524;
+  color: #393630;
+  background-color: #FBFCFF;
   font-size: 16px;
+  padding: 1%;
 }
 
 nav {
   /*top gray section*/
-  background-color: gray;
+  background-color: #274156;
   float: left;
   width: 100%;
 }
@@ -18,78 +19,76 @@ nav {
   float: left;
 }
 
-.medium-pic {
+a {
+  /*contact alumni courses*/
+  float: right;
+  padding: 42px;
+  text-decoration: none;
+  color: #1C6E8C;
+  text-align: center;
+  font-size: 120%;
+}
+
+a:hover {background-color: #D0CCD0;}
+a:visited {color: #1C6E8C;}
+a:active {color: #FBFCFF;}
+
+
+.medium-pic, figcaption {
   /*center pic*/
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #fff url(http://www.imageurl.com) no-repeat top center;
+  padding-top: 1%;
   }
 
   figcaption{
-    font-size: 90%;
-    font-style: italic;
-
+    padding-bottom: 1%;
+    width: 30%;
+      font-style: italic;
   }
 
   h1 {
     /*contact row*/
     font-size: 2em; /* 32px */
+    background-color: #D0CCD0;
     line-height: normal;
-padding-top: 2%;
+    padding-top: .5%;
+    padding-bottom: .2%;
     width: 100%;
-    float: center;
+    text-align:center;
   }
 
   h3 {
-    font-size: 1em; /* 32px */
+    font-size: 1.5em; /* 32px */
+    background-color:  #D0CCD0;
     line-height: normal;
+    padding-bottom: .2%;
     font-style: italic;
     width: 100%;
-    float: center;
+    text-align:center;
   }
 
-  a {
-    /*contact alumni courses*/
-    float: right;
-    padding: 30px;
-    text-decoration: none;
-    color: #0099CC;
-  }
-
-  a:hover {color: #3399CC;}
-  a:visited {color: #0066CC;}
-  a:active {color: #0099FF;}
-
-
-p {
-  /*text body*/
-  font-size: 110%; /* 16px */
-  text-align:left;
-  width: 80%
-}
-
-.container {
- line-height: 150%;
- width: 100%;
-padding: 1.5rem;
-margin: 2%;
-background: white;
-}
-
-.author{
-  line-height: 100%;
-  width: 100%;
- background: white;
- padding-top: .2%
+.author {
+  text-align:center;
+  background-color:  #D0CCD0;
+  padding-bottom: .5%;
 }
 
 .story-text {
-  line-height: 150%;
+  /*text body*/
+  padding-top: 1%;
+  font-size: 100%; /* 16px */
+  text-align:left;
+  width: 100%
+}
+
+.author{
+  padding-top: .2%
+}
+
+.story-text {
+  line-height: 110%;
   width: 100%;
- padding: 3%;
- background: white;
 }
 
 .story-text p {
-  margin-bottom: 2%; /* or whatever value you like */
-}
+  margin-bottom: .5%;
