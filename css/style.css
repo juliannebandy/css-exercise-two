@@ -24,13 +24,13 @@ a {
   float: right;
   padding: 42px;
   text-decoration: none;
-  color: #1C6E8C;
+  color: #299FCB;
   text-align: center;
   font-size: 120%;
 }
 
 a:hover {background-color: #D0CCD0;}
-a:visited {color: #1C6E8C;}
+a:visited {color: #299FCB;}
 a:active {color: #FBFCFF;}
 
 
